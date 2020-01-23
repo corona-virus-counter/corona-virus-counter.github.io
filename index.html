@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43238294-8"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-43238294-8');
+		</script>
+
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="./style.css">
+
+		<title>Corona Virus Counter</title>
+	</head>
+	<body class="bg-light">
+		<div class="container">
+			<div class="row" id="header">
+				<div class="col">
+					<h1 class="display-4 text-center">Coronavirus Counter</h1>
+					<hr>
+				</div>
+			</div>
+
+			<div class="row" id="content">
+				<div class="col" id="counters">
+					<div class="card text-center mb-4" id="infection-counter-card">
+						<div class="card-body">
+							<p class="card-text">
+								<span class="display-1">
+									659
+								</span>
+							</p>
+							<h6 class="card-title">Infection Counter</h6>
+							<br>
+							<small>
+							<span>Source: </span>
+							<a href="https://3g.dxy.cn/newh5/view/pneumonia">
+								https://3g.dxy.cn/newh5/view/pneumonia
+							</a>
+							</small>
+						</div>
+					</div>
+					<div class="card text-center" id="death-counter-card">
+						<div class="card-body">
+							<p class="card-text">
+								<span class="display-1">
+									18
+								</span>
+							</p>
+							<h6 class="card-title">Death Counter</h6>
+							<br>
+							<small>
+								<span>Source: </span>
+								<a href="https://3g.dxy.cn/newh5/view/pneumonia">
+									https://3g.dxy.cn/newh5/view/pneumonia
+								</a>
+							</small>
+						</div>
+					</div>
+
+				</div>
+				<div class="col" id="newsfeed">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title text-center">Newsfeed</h5><hr>
+							<div class="card-text overflow-auto height-450">
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://www.washingtonpost.com/world/coronavirus-china-wuhan-latest/2020/01/23/2dc947a8-3d45-11ea-afe2-090eb37b60b1_story.html">
+										Chinese cities cancel New Year celebrations, travel ban widens in effort to stop coronavirus outbreak
+									</a>
+									<span class="news-date text-muted">2020/01/23</span>
+									<br>
+									<span class="news-subtitle">
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://www.bloomberg.com/news/articles/2020-01-22/china-viral-outbreak-triggers-travel-ban-in-city-at-epicenter">
+										Singapore Reports Virus Case as China Limits Some Travel
+									</a>
+									<span class="news-date text-muted">2020/01/22</span>
+									<br>
+									<span class="news-subtitle">
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="nytimes.com/2020/01/22/health/corona-virus-china.html">
+										As New Virus Spreads From China, Scientists See Grim Reminders
+									</a>
+									<span class="news-date text-muted">2020/01/22</span>
+									<br>
+									<span class="news-subtitle">
+										The W.H.O. has postponed a decision on whether the new outbreak is a global emergency.
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">
+										Novel Coronavirus (2019-nCoV)
+									</a>
+									<span class="news-date text-muted">2020/01/21</span>
+									<br>
+									<span class="news-subtitle">
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://edition.cnn.com/2020/01/20/health/what-is-coronavirus-explained/index.html">
+										Coronavirus explained
+									</a>
+									<span class="news-date text-muted">2020/01/20</span>
+									<br>
+									<span class="news-subtitle">
+										What you need to know
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://www.nytimes.com/2020/01/20/world/asia/coronavirus-china-symptoms.html">
+										China Confirms New Coronavirus Spreads From Humans to Humans
+									</a>
+									<span class="news-date text-muted">2020/01/20</span>
+									<br>
+									<span class="news-subtitle">
+									</span>
+								</div>
+								<hr>
+
+								<div class="news mt-1 mb-1">
+									<a class="news-title" href="https://www.nytimes.com/2020/01/15/world/asia/coronavirus-japan-china.html">
+										Japan and Thailand Confirm New Cases of Chinese Coronavirus
+									</a>
+									<span class="news-date text-muted">2020/01/15</span>
+									<br>
+									<span class="news-subtitle">
+										The two new patients will add to fears that the virus will spread further outside China’s borders.
+									</span>
+								</div>
+								<hr>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col">
+					<p>
+						The Coronavirus (<i>2019-nCov</i>) also known as Wuhan Coronavirus is virus first reported in late 2019.
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>

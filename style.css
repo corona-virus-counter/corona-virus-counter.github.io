@@ -1,0 +1,19 @@
+.height-450 {
+    height: 450px;
+}
+
+.height-500 {
+    height: 500px;
+}
+
+.news {}
+
+.news-title {
+    font-size: 18px;
+}
+
+.news-date {
+    font-size: 12px;
+}
+
+.news-text {}
